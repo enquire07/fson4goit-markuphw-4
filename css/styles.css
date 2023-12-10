@@ -263,7 +263,7 @@ text-decoration: none;}
         margin-bottom: 8px;
 }
 .sec-p{
-        text-align: center;
+       text-align: center; 
 }
 .style-css{text-align: center;
         padding-top: 24px;
@@ -330,7 +330,7 @@ text-decoration: none;}
 }
 
 .sec-header{
-        text-align: center;
+        /*--text-align: center;--*/
 }
 .foot_er{
         padding-top: 100px;
@@ -410,7 +410,17 @@ text-decoration: none;}
         max-width: 1440px;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover; 
-        
-       
+        background-size: cover;       
+}
+.draw-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+}
+.sec4-header{
+        text-align: center;
 }
