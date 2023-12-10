@@ -1,0 +1,405 @@
+*{
+        
+}
+
+:root{--background-color: #2e2f42;
+font-variant: normal;}
+.root{--mycolor-text: #4D5AE5}
+.root{font-family: Raleway, sans-serif;
+}
+.root{--letter-spacing: normal;
+--line-height: 1.17;
+--font-size: 18px;--color-property: #2e2f42;
+} 
+.logo-list{text-decoration: none;}
+
+.logo-style-link{
+        font-family: Raleway, sans-serif;
+        color: #4d5ae5;   
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none; 
+        list-style: none;
+        }
+        
+.logo-studio{color: #2E2F42;}
+.style-css{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    list-style: none;
+    text-transform: capitalize;
+    margin: 40px;
+}
+.style-css:hover{color: #404bbf;}
+.style-css:focus{color: #404bbf;}
+
+.add-ress{font-style: normal;
+}
+.address_mail{list-style: none;}
+.contact-mail{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-decoration: none;}
+.contact-mail:hover{color: #404bbf}
+.contact-mail:focus{color: #404bbf;}
+
+.my-head{
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #ffffff;}
+       
+.sec-a{background-color: #2e2f42;}*/
+
+.click{
+        background-color: #4D5AE5;
+        font-weight: 500; font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        font-family: Roboto, sans-serif;
+        }
+.click{color: #ffffff;
+background-color: #4D5AE5;
+}
+.click:hover{background-color: #404BBF;}
+.click:focus{background-color: #404BBF;
+cursor: pointer;}
+
+.sec-b{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;}
+
+.image-sec{list-style-type: none;}
+
+.sec-header{font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em; 
+        color: #2e2f42;
+        }
+
+.sec-p{font-size: 16px;
+        color:  #434455;
+        letter-spacing: 0.02em;
+        line-height: 1.5;}
+
+.sec-c{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.list-type{list-style-type: none;}
+.what-doing{list-style-type: none;
+}
+
+.sec-d{background-color: #F4F4FD;}
+
+.team{font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;}
+.team-picture{list-style-type: none;
+background-color: #FFFFFF;}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+body{color: #434455;
+background-color: #ffffff;}
+
+.foot_er{background-color: #2e2f42;}
+       
+.footer{line-height: 1.5;
+        color: #F4F4FD;
+        letter-spacing: 0.02em;}
+.list{list-style: none;
+text-decoration: none;}
+
+.button-link{list-style: none;}
+.all{font-family: Roboto,sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #4d5ae5;
+        background-color: #F4F4FD;
+}
+.all:hover{ color: #ffffff; 
+        background-color: #404bbf;
+}
+.all:focus{color: #ffffff;
+        background-color: #404BBF;}
+.all{cursor: pointer;}
+
+.sec-app{font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em; 
+        color: #2e2f42;
+        }
+.sec-app:hover{color: #404bbf;}
+.sec-app:focus{color: #404bbf;}
+.logo-studios{color: #f4f4fd;}
+.default-link{text-decoration: none;}
+/* homework3*/
+.head-nav{
+        border-bottom: 1px solid #e7e9fc;
+}
+.main-top{
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+        display: flex;
+}
+.main-top ul{
+        list-style: none;
+
+}
+.nav-logo{
+        align-items: center;
+        display: flex;
+
+}
+.logo-style-link{
+        margin-right: 76px;
+}
+.list-item{
+        display: flex;
+         gap: 40px;
+} 
+        
+.list-add{
+        display: flex;
+        gap: 40px;
+}       
+.sec-a{
+        padding-top: 188px;
+        padding-bottom: 188px;
+} 
+.my-head{
+       margin: auto;
+        max-width: 496px;
+        font-size: 56px;
+        align-items: center;
+        justify-content: center;
+}
+
+.h-button{
+        display: block;
+        margin: auto;
+}
+.h-button{
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        background-color: #4d5ae5;
+        border-radius: 4px;
+        cursor: pointer;
+}
+.sec-par{
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+.h1-sec{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+
+         white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+       
+}  
+.visual-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+.sec-1{
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+}
+.sec-cond{
+        list-style: none;
+        gap: 24px;
+        width: auto;
+        display: flex;    
+}
+.disc{
+        width: calc((100% - 72px) / 4);
+}
+.sec-header{
+        margin-bottom: 8px;
+}
+.sec-p{
+        text-align: center;
+}
+.style-css{text-align: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+        
+.sec-f{
+        margin-bottom: 72px;
+        padding-bottom: 120px;
+
+}
+.sec-d{
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+.what-d{
+        display: flex;
+        list-style: none;
+        gap: 24px;
+        justify-content: center;
+}
+.what-d img{
+         display: block;
+        width: 360px;
+        height: 300px;
+}
+
+.our-t{
+        margin-bottom: 72px;
+}
+.sec-c{
+        margin-bottom: 72px;
+}
+.we-doing{
+        width: calc((100%-48px)/3)
+} 
+
+.team-mate{
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+}
+
+.team-mate img{
+        display: block;
+        width: 100%;
+        height: 260px
+}
+
+.team-mate{
+         width: calc((100%-72px)/4);
+}
+.sec-3{
+        justify-content: center;
+        align-items: center;
+}
+.team-picture{
+         gap: 24px;
+        border-radius: 0px 0px 4px 4px;
+}
+.name-position{
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
+
+.sec-header{
+        text-align: center;
+}
+.foot_er{
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+.main-feet{
+        max-width: 264px;
+        color: #F4F4FD;
+}
+.main-foot{
+        display: inline-block;
+}
+.logo-style-link{
+        display: inline-block;
+        margin-bottom: 16px;
+}
+
+.main-port{
+        padding-top: 96px;
+        padding-bottom: 120px;
+}
+.all-button{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 72px;
+}   
+
+.all{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
+}   
+.all:hover{
+        border: 1px solid transparent;
+}
+.all:focus{
+        border: 1px solid transparent;
+} 
+       
+.list-pic{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+       justify-content: center;
+       list-style: none;
+}
+ 
+.bai-c{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+}
+.sec-app{
+        margin-bottom: 8px;      
+}
+.list-apps{
+         width: calc((100% -48px) / 3);
+        }
+         
+.list-apps img{
+        display: block;
+        width: 360px;
+        height: 300px;      
+} 
+/*---homework4---*/
+
