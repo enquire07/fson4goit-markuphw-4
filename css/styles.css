@@ -449,7 +449,7 @@ text-decoration: none;}
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-right: -10;  
+        position: relative;  
 }                
  .soc-med-icon{
          width: 100%;
@@ -490,7 +490,9 @@ text-decoration: none;}
 }
 .flag{
         height: 88px;
-}    
+
+}  
+
 .link{
         width: 100%;
         height: 100%;
