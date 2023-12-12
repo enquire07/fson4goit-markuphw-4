@@ -470,7 +470,7 @@ text-decoration: none;}
 }
 
 /*--sec-5--*/
-.sec-5{
+.section-last{
         padding-top: 120px;
         padding-bottom: 120px
 }
@@ -492,10 +492,10 @@ text-decoration: none;}
          justify-content: center;
 }
        
-.tagline{
+.flag{
         flex-basis: calc((100% - 120px)/6)
 }
-.tagline{
+.flag{
         height: 88px;
 
 }  
@@ -530,7 +530,9 @@ text-decoration: none;}
         color:  #FFFFFF ;
 
 }
-.somedia{ margin-bottom: 16px;}
+.somedia{
+        margin-bottom: 16px;
+}
 
 .itfl{
         display: flex;
@@ -558,9 +560,7 @@ text-decoration: none;}
 }
 .paralogo{
         margin: 120px;
-        gap: 120px;
 }
 .footer-soc{
         fill: #f4f4fd;
 }
-.foot_er{padding-left: 20px;}
