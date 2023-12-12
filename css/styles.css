@@ -439,7 +439,6 @@ text-decoration: none;}
          
          width: 40px;
          height: 40px;
-
 }
 .media{      
         width: 100%;
@@ -448,8 +447,7 @@ text-decoration: none;}
         border-radius: 50%;
         display: flex;
         align-items: center;
-        justify-content: center;
-        position: relative;  
+        justify-content: center; 
 }                
  .soc-med-icon{
          width: 100%;
@@ -458,7 +456,6 @@ text-decoration: none;}
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-right: -10;
         fill: #f4f4fd;
 }
 .media :hover{
@@ -467,15 +464,19 @@ text-decoration: none;}
 .media :focus{
         background-color:  #404bbf;
 }
+
 /*--sec-5--*/
 .sec-5{
         padding-top: 120px;
-        padding-bottom: 120px;
+        padding-bottom: 120px
 }
 .banner{
         font-size: 36px;
         line-height: 1.11;
         color: #2e2f42;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 }       
 .banner{
         margin-bottom: 72px;
@@ -484,10 +485,11 @@ text-decoration: none;}
         display: flex;
          gap: 24px;
          list-style-type: none;
+         justify-content: center;
 }
        
 .tagline{
-        width: calc((100% - 120px)/6)
+        flex-basis: calc((100% - 120px)/6)
 }
 .tagline{
         height: 88px;
