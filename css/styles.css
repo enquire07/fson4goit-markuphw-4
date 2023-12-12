@@ -403,6 +403,9 @@ text-decoration: none;}
 } 
 /*---homework4---*/
 
+.head-nav{
+        box-shadow:  0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08);
+}
 .sec-a{
        background-image: linear-gradient(rgba(46,47,66,0.7),
        rgba(46,47,66,0.7)),
@@ -447,7 +450,8 @@ text-decoration: none;}
         border-radius: 50%;
         display: flex;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
+        
 }                
  .soc-med-icon{
          width: 100%;
@@ -506,11 +510,11 @@ text-decoration: none;}
         justify-content: center;
         color: #8e8f99;
 }
-.tagline :hover{
+.tagline:hover{
         border-color: #404bbf;
         color: #404bbf;
 }
-.tagline :focus{
+.tagline:focus{
         border-color: #404bbf;
         background-color: #404bbf;
 }
@@ -518,19 +522,16 @@ text-decoration: none;}
         display: flex;
         align-items: baseline;
 }
-.fotter-logo{
-        margin-right: 120px;
-        gap: 120px;
-}
 .somedia{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:  #FFFFFF ;
-        margin-bottom: 16px;
 
 }
+.somedia{ margin-bottom: 16px;}
+
 .itfl{
         display: flex;
         gap: 16px;
@@ -548,8 +549,18 @@ text-decoration: none;}
         display: flex;
         align-items: center;
         justify-content: center;
-
+}
+.igt:hover{
+        background-color:  #31d0aa;
+}
+.igt:focus{
+        background-color:  #31d0aa;
+}
+.paralogo{
+        margin: 120px;
+        gap: 120px;
 }
 .footer-soc{
         fill: #f4f4fd;
 }
+.foot_er{padding-left: 20px;}
