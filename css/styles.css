@@ -493,7 +493,7 @@ text-decoration: none;}
 }
        
 .flag{
-        flex-basis: calc((100% - 120px)/6)
+        width: calc((100% - 120px)/6)
 }
 .flag{
         height: 88px;
@@ -563,4 +563,19 @@ text-decoration: none;}
 }
 .footer-soc{
         fill: #f4f4fd;
+}
+.all :hover{ 
+        box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.all :focus{
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.list-apps{
+        display: block;
+}
+.link :hover{
+        box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.link :focus{
+        box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
