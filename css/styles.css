@@ -508,7 +508,7 @@ text-decoration: none;}
         border-color: #404bbf;
         color: #404bbf;
 }
-.link:focus{
+.tagline-link:focus{
         border-color: #404bbf;
         background-color: #404bbf;
 }
@@ -523,6 +523,15 @@ text-decoration: none;}
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:  #FFFFFF ;
+}
+.media:hover{
+        background-color: #404bbf;
+}
+.media:focus{
+        background-color: #404bbf;
+}
+.client{
+        fill: currentColor;
 }
        
 .p{
