@@ -474,10 +474,10 @@ text-decoration: none;}
         font-size: 36px;
         line-height: 1.11;
         color: #2e2f42;
-        justify-content: center;
-        align-items: center;
+ /*  justify-content: center;
+        align-items: center;*/
         text-align: center;
-         margin-bottom: 72px;
+        margin-bottom: 72px;
 }       
 .company{
         display: flex;
@@ -488,6 +488,7 @@ text-decoration: none;}
        
 .flag{
         width: calc((100% - 120px)/6);
+        flex-basis: calc((100% - 120px)/6);
 }
 .flag{
         height: 88px;
@@ -509,8 +510,7 @@ text-decoration: none;}
         color: #404bbf;
 }
 .tagline-link:focus{
-        border-color: #404bbf;
-        background-color: #404bbf;
+        color: #404bbf;
 }
 
 .main-foot{
