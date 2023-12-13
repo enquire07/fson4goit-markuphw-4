@@ -402,9 +402,10 @@ text-decoration: none;}
         width: 360px;
         height: 300px;      
 } 
+
 /*---homework4---*/
 
-.main-top{
+.head-nav{
         box-shadow:  0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08);
 }
 .sec-a{
@@ -451,9 +452,8 @@ text-decoration: none;}
         border-radius: 50%;
         display: flex;
         align-items: center;
-        justify-content: center;
-        
-}                
+        justify-content: center;     
+}           
  .soc-med-icon{
         fill: #f4f4fd;
 }
@@ -463,8 +463,6 @@ text-decoration: none;}
 .media :focus{
         background-color:  #404bbf;
 }  
-   
-
 /*--sec-5--*/
 .section-last{
         padding-top: 120px;
@@ -474,8 +472,6 @@ text-decoration: none;}
         font-size: 36px;
         line-height: 1.11;
         color: #2e2f42;
- /*  justify-content: center;
-        align-items: center;*/
         text-align: center;
         margin-bottom: 72px;
 }       
@@ -492,7 +488,7 @@ text-decoration: none;}
 }
 .flag{
         height: 88px;
-
+        width: 168px;
 }  
 
 .tagline-link{
@@ -524,7 +520,7 @@ text-decoration: none;}
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:  #FFFFFF ;
-        margin-bottom: 26px;
+        margin-bottom: 16px;
 }
 .media:hover{
         background-color: #404bbf;
@@ -539,13 +535,16 @@ text-decoration: none;}
 .p{
         margin-bottom: 16px;
 }
-
+.paralogo{
+        margin: 120px;
+        gap: 120px;
+}
 .itfl{
         display: flex;
         gap: 16px;
 
 }
-.instagram{
+.instag{
         width: 40px;
         height: 40px;
 }
@@ -558,16 +557,13 @@ text-decoration: none;}
         align-items: center;
         justify-content: center;
 }
-.igt:hover{
+.igt :hover{
         background-color:  #31d0aa;
 }
-.igt:focus{
-        color:  #31d0aa;
+.igt :focus{
+        background-color: #31d0aa;
 }
-.paralogo{
-        margin: 120px;
-        gap: 120px;
-}
+
 .footer-soc{
         fill: #f4f4fd;
         padding-top: 8px;
@@ -579,12 +575,9 @@ text-decoration: none;}
 .all-button :focus{
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.list-apps{
-
-}
-.link :hover{
+.links :hover{
         box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.link :focus{
+.links :focus{
         box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
