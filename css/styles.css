@@ -457,12 +457,13 @@ text-decoration: none;}
  .soc-med-icon{
         fill: #f4f4fd;
 }
-.soc-med-icon :focus{
-         background-color:  #404bbf;
-}
 .media :hover{
         background-color:  #404bbf;
-}     
+}  
+.media :focus{
+        background-color:  #404bbf;
+}  
+   
 
 /*--sec-5--*/
 .section-last{
@@ -505,15 +506,15 @@ text-decoration: none;}
 }
 .tagline-link :hover{
         border-color: #404bbf;
-        color: #404bbf;*/
+        color: #404bbf;
 }
 .tagline-link :focus{
         border-color: #404bbf;
+        background-color: #404bbf;
 }
 .client{
         color: #404bbf;
-        background-color: #404bbf;
-         fill: currentColor;
+        fill: currentColor;
 }
 .main-foot{
         display: flex;
