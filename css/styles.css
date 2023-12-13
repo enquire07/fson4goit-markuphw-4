@@ -498,7 +498,7 @@ text-decoration: none;}
 
 }  
 
-.tagline{
+.tagline-link{
         width: 100%;
         height: 100%;
         border: 1px solid #8e8f99;
@@ -508,11 +508,11 @@ text-decoration: none;}
         justify-content: center;
         color: #8e8f99;
 }
-.tagline:hover{
+.tagline-link :hover{
         border-color: #404bbf;
         color: #404bbf;
 }
-.tagline:focus{
+.tagline-link:focus{
         border-color: #404bbf;
         background-color: #404bbf;
 }
