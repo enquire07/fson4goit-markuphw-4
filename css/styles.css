@@ -506,11 +506,12 @@ text-decoration: none;}
         color: #8e8f99;
 }
 .tagline-link:hover{
-        border-color: #404bbf;
-        color: #404bbf;
+        background-color: #404bbf;
+    /*    color: #404bbf;*/
 }
 .tagline-link:focus{
-        color: #404bbf;
+        background-color: #404bbf;
+      /*  border-color: #404bbf;*/
 }
 
 .main-foot{
