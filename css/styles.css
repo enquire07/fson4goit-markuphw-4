@@ -505,9 +505,9 @@ text-decoration: none;}
 }
 .tagline-link :hover{
         border-color: #404bbf;
-        color: #404bbf;
+        color: #404bbf;*/
 }
-.tagline-link:focus{
+.tagline-link :focus{
         border-color: #404bbf;
 }
 .client{
