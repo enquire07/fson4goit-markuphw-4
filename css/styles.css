@@ -514,7 +514,11 @@ text-decoration: none;}
 }
 .tagline-link:focus{
         border-color: #404bbf;
+}
+.client{
+        color: #404bbf;
         background-color: #404bbf;
+         fill: currentColor;
 }
 .main-foot{
         display: flex;
@@ -526,11 +530,8 @@ text-decoration: none;}
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:  #FFFFFF ;
-
 }
-.svg{
-        fill: currentColor;
-}
+       
 .p{
         margin-bottom: 16px;
 }
