@@ -426,13 +426,14 @@ text-decoration: none;}
         border-radius: 4px;
         margin-bottom: 8px;
 }
-.sec4-header{
-        text-align: center;
-}
+
 .team-picture{
         box-shadow: 0px 1px 6px rgba(46,47,66,0.08), 
         0px 1px 1px rgba(46,47,66,0.16), 
         0px 2px 1px rgba(46,47,66,0.08);
+}
+.sec4-header{
+        text-align: center;
 }
 .social-media{
         list-style: none;
@@ -445,6 +446,9 @@ text-decoration: none;}
          width: 40px;
          height: 40px;
 }
+.soc-med-icon{
+        fill: #f4f4fd;
+}
 .media{      
         width: 100%;
         height: 100%;
@@ -454,9 +458,7 @@ text-decoration: none;}
         align-items: center;
         justify-content: center;     
 }           
- .soc-med-icon{
-        fill: #f4f4fd;
-}
+ 
 .media :hover{
         background-color:  #404bbf;
 }  
@@ -467,7 +469,7 @@ text-decoration: none;}
 .section-last{
         padding-top: 120px;
         padding-bottom: 120px
-}
+} 
 .banner{
         font-size: 36px;
         line-height: 1.11;
@@ -501,11 +503,11 @@ text-decoration: none;}
         justify-content: center;
         color: #8e8f99;
 }
-.tagline-link:hover{
+.tagline-link :hover{
         border-color: #404bbf;
         color: #404bbf;
 }
-.tagline-link:focus{
+.tagline-link :focus{
         color: #404bbf;
         border-color: #404bbf
 }
@@ -521,20 +523,10 @@ text-decoration: none;}
         letter-spacing: 0.02em;
         color:  #FFFFFF ;
         margin-bottom: 16px;
-        padding: 0;
 }
-.media:hover{
-        background-color: #404bbf;
-}
-.media:focus{
-        background-color: #404bbf;
-}
+
 .client{
         fill: currentColor;
-}
-       
-.p{
-        margin-bottom: 16px;
 }
 
 .itfl{
@@ -563,7 +555,6 @@ text-decoration: none;}
 }
 .paralogo{
         margin: 120px;
-        gap: 120px;
 }
 .footer-soc{
         fill: #f4f4fd;
