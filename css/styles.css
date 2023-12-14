@@ -406,7 +406,11 @@ text-decoration: none;}
 /*---homework4---*/
 
 .head-nav{
-        box-shadow:  0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08);
+      /*  background-color: #F4F4FD;
+        display: flex;
+        justify-content: center;
+        align-items: center;border-bottom: 1px solid rgba(46,47,66,0.7;
+        box-shadow:  0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08);*/
 }
 .sec-a{
        background-image: linear-gradient(rgba(46,47,66,0.7),
@@ -459,9 +463,7 @@ text-decoration: none;}
         justify-content: center;     
 }           
  
-.media:hover{
-        background-color:  #404bbf;
-}  
+.media:hover,
 .media:focus{
         background-color:  #404bbf;
 }  
