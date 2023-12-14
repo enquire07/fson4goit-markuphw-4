@@ -503,15 +503,17 @@ text-decoration: none;}
         justify-content: center;
         color: #8e8f99;
 }
-.tagline-link :hover{
+.tagline-link:hover{
         border-color: #404bbf;
         color: #404bbf;
 }
-.tagline-link :focus{
+.tagline-link:focus{
+        border-color: #404bbf;
         color: #404bbf;
-        border-color: #404bbf
 }
-
+.client{
+        fill: currentColor;
+}
 .main-foot{
         display: flex;
         align-items: baseline;
@@ -524,11 +526,6 @@ text-decoration: none;}
         color:  #FFFFFF ;
         margin-bottom: 16px;
 }
-
-.client{
-        fill: currentColor;
-}
-
 .itfl{
         display: flex;
         gap: 16px;
