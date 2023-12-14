@@ -459,7 +459,7 @@ text-decoration: none;}
         justify-content: center;     
 }           
  
-.media :hover{
+.media:hover{
         background-color:  #404bbf;
 }  
 .media:focus{
