@@ -406,7 +406,7 @@ text-decoration: none;}
 /*---homework4---*/
 
 .head-nav{
-       box-shadow: 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08) 
+       box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08) 
 }
 .sec-a{
        background-image: linear-gradient(rgba(46,47,66,0.7),
@@ -459,7 +459,7 @@ text-decoration: none;}
         justify-content: center;     
 }           
  
-.social-list :hover{
+.social-list:hover{
        background-color:  #404bbf;
 }   
 .media:focus{
@@ -533,6 +533,9 @@ text-decoration: none;}
         width: 40px;
         height: 40px;
 }
+.main-feet{
+        margin-bottom: 16px;
+}
 .igt{
         width: 100%;
         height: 100%;
@@ -542,7 +545,9 @@ text-decoration: none;}
         align-items: center;
         justify-content: center;
 }
-.igt:hover,
+.igt:hover{
+        background-color:  #31d0aa;
+}
 .igt:focus{
         background-color:  #31d0aa;
 }
@@ -561,12 +566,10 @@ text-decoration: none;}
 .all-button :focus{
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.list-apps{
+.list-apps> .link{
         display: block;
 }
-.link :hover{
-        box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+.link :hover,
 .link :focus{
         box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
